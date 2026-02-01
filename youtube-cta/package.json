@@ -1,0 +1,19 @@
+{
+  "name": "youtube-cta",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render src/index.ts YouTubeCTA out/youtube-cta.mov --codec=prores --prores-profile=4444 --image-format=png --pixel-format=yuva444p10le --muted --scale=2",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.409",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "dotenv": "^17.2.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "^4.0.409",
+    "typescript": "^5.9.3"
+  }
+}
