@@ -18,7 +18,7 @@ export type YouTubeCTAProps = {
 const formatSubCount = (count: number): string => {
   if (count >= 1000) {
     const k = count / 1000;
-    return k % 1 === 0 ? `${k}K` : `${k.toFixed(1)}K`;
+    return k % 1 === 0 ? `${k}K` : `${k.toFixed(2)}K`;
   }
   return String(count);
 };
